@@ -1,0 +1,33 @@
+node.js
+1->It's is a runtime environment that allows you to run JS code outside of a web browser-typically n the server side
+
+2->To run a JS code through we have to be preseent in the same folder in which the code is present!!
+
+3->This object provides information about,control over,the current Node.ls process
+-->process.argv-->Gives the cwd ny default(int the form of array)
+-->with arguments it will give argumnets also
+
+4->module.exports-->used to use function of one file into second file 
+-->For doing this we have to declare module.exports=1234;
+(example) into the file for which we want to use the function of and use const any=require("./math");
+require(path)
+
+
+5->To get information from a particular directory and use it into another directory we have to use index.js file and create its all module.exprots in it and require it in the directory we want to use it in...
+-->index.js is the entry function for the directory 
+
+6->npm(Node Package Manager)
+-->it is the standard package managaer for Node.js
+it is a library that contains many packages 
+ex-->it contains react.js,express.js which are code writeen by someone and are widely use by everyone wordlwide
+-->it is also a command line tool through which we can install many packages
+
+7->Local install->we can only use locally the package that we have installed in the system
+->global install->we can use in diff. directories
+
+
+8->import---> used to imporst a function from a particular file to another file
+->we can only use either require or import in a project
+->to import we have to declare function with export
+->import {sum} from "./math.js"
+export function(){}
