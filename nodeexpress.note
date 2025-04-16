@@ -1,0 +1,16 @@
+FrameWork  ->Ity is a pre  writeen code that provides a structure for developing software applications
+
+Express is used for server side programming
+1->It listen incoming API requests->name.listen(port)
+
+port->Ports are the logical endpoints of a netwrok connection that is usd tp exchange information between a web server and  a web client
+
+listen->it creates a web server for incoming api requests and do  a function 
+
+app.use-->to send a API request to a server
+
+-->The https request is text based reuqest and express turns it into object(parsing)
+-->res.send(body)->send a response
+
+Routing-------
+-->It is the  process of selecting a path for traftuc in a network or between or across multiple networks-->('/response)
